@@ -1,0 +1,84 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #faf2f2;
+}
+
+hr {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    color: #7d5a5a !important;
+    font-size: 3rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.title-container {
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.title-container h1 {
+    text-align: center;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #7d5a5a;
+}
+
+.title-container p {
+    margin-top: 7%;
+    color: #888888;
+}
+
+.title-btns {
+    text-align: center;
+    margin: 7% 0;
+}
+
+.title-btns button {
+    margin: 0 4%;
+}
+
+.title-col-img {
+    text-align: center;
+}
+
+.title-img {
+    width: 75%;
+}
+
+.footer {
+    text-align: center;
+    color: #888888;
+    background-color: #f1d1d1;
+    padding: 3rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #888888;
+}
+
+.footer i {
+    margin: 0 2%;
+}
+
+.footer i:hover {
+    color: #7d5a5a;
+}
+
+.footer p {
+    text-decoration: none;
+    color: #888888;
+    margin-top: 2rem;
+}
