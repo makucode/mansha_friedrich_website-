@@ -1,6 +1,6 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    background-color: #faf2f2;
+    background-color:#f1f1f1;
 }
 
 hr {
@@ -9,7 +9,7 @@ hr {
 
 .navbar-brand {
     font-family: 'Sacramento', cursive;
-    color: #7d5a5a !important;
+    color: #424246 !important;
     font-size: 3rem;
 }
 
@@ -32,12 +32,12 @@ hr {
     font-weight: bolder;
     line-height: 1.5;
     font-weight: 400;
-    color: #7d5a5a;
+    color: #212121;
 }
 
 .title-container p {
     margin-top: 7%;
-    color: #888888;
+    color: #424246;
 }
 
 .title-btns {
@@ -46,7 +46,7 @@ hr {
 }
 
 .title-btns button {
-    margin: 0 4%;
+    margin: 2% 4%;
 }
 
 .title-col-img {
@@ -59,14 +59,14 @@ hr {
 
 .footer {
     text-align: center;
-    color: #888888;
-    background-color: #f1d1d1;
+    color: #f1f1f1;
+    background-color: #bbb6b6;
     padding: 3rem;
 }
 
 .footer a {
     text-decoration: none;
-    color: #888888;
+    color: #f1f1f1;
 }
 
 .footer i {
@@ -74,11 +74,29 @@ hr {
 }
 
 .footer i:hover {
-    color: #7d5a5a;
+    color: #424246;
 }
 
 .footer p {
     text-decoration: none;
-    color: #888888;
+    color: #f1f1f1;
     margin-top: 2rem;
 }
+
+/* Text Fade */
+
+.textShineBlack {
+    background: linear-gradient(to right, #000 20%, #3e7a8c 30%, #3e7a8c 70%, #000 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 60s ease-in-out infinite alternate;
+  }
+  
+  @keyframes textShine {
+    to {
+      background-position: 200%;
+    }
+  }
