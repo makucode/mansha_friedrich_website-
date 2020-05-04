@@ -67,20 +67,15 @@ hr {
 .footer a {
     text-decoration: none;
     color: #f1f1f1;
+    margin-top: 5rem;
 }
 
 .footer i {
-    margin: 0 2%;
+    margin: 2% 3%;
 }
 
 .footer i:hover {
     color: #424246;
-}
-
-.footer p {
-    text-decoration: none;
-    color: #f1f1f1;
-    margin-top: 2rem;
 }
 
 /* Text Fade */
